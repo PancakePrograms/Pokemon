@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+.encounter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: auto;
+  border: 1px solid black;
+}
+.actions {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.actions button {
+  padding: 10px;
+  margin: 10px;
+}
+.owned {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  left: 50%;
+  bottom: 50px;
+  transform: translateX(-50%);
+  width: 80%;
+  height: auto;
+  border: 1px solid black;
+}
+div span {
+  margin-bottom: 20px;
+}
+.object {
+  color: red;
+}
