@@ -39,5 +39,8 @@ div span {
   margin-bottom: 20px;
 }
 .object {
-  color: red;
+  color: blue;
+}
+.taken {
+  color: blue;
 }
